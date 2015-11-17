@@ -139,19 +139,12 @@ App.prototype.getSkybox = function() {
 	// var dirs = [];
 
 	var files = [
-		/* 'right',
+		'right',
 		'left',
 		'top',
 		'bottom',
 		'front',
-		'back' */
-
-		'fJ9t36S',
-		'HCbTO4u',
-		'bH8flnq',
-		'ii5b4Vi',
-		'zGU49Py',
-		'OHWx8yx'
+		'back'
 	];
 
 	var geo = new THREE.BoxGeometry(5000, 5000, 5000, 1, 1, 1);
