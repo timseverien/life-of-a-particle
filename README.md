@@ -1,1 +1,1 @@
-# life-of-a-particle
+# Life of a Particle

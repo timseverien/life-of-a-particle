@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Life of a particle</title>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta property="og:title" content="Life of a particle"/>
+    <meta property="og:url" content="https://timseverien.github.io/life-of-a-particle/"/>
+    <meta property="og:image" content="screenshot.png"/>
+    <meta property="og:description" content="A particle simulation from another perspective &mdash; inside."/>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="app--intro">
+
+	<div class="intro">
+		<div class="wrapper">
+			<h1>Life of a particle</h1>
+			<p>A particle simulation from another perspective &mdash; inside.</p>
+
+			<div class="quality">
+				<button class="btn" id="btn-start-low">low</button>
+				<button class="btn" id="btn-start-medium">medium</button>
+				<button class="btn" id="btn-start-high">high</button>
+				<button class="btn" id="btn-start-ultra">insane</button>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<p>A project by <a href="https://twitter.com/TimSeverien" target="_blank">@timseverien</a></p>
+		</div>
+	</div>
+
+	<div class="broken">
+        <div class="wrapper">
+            <h1>Whoops!</h1>
+            <p>You&rsquo;ll definitely want to get <a href="https://www.google.com/chrome/browser/" target="_blank">a better browser</a>.</p>
+        </div>
+	</div>
+
+	<button class="btn btn-fullscreen" id="btn-fullscreen">Fullscreen</button>
+
+
+    <script src="js/libs/three.min.js"></script>
+    <script src="js/libs/controls/OrbitControls.js"></script>
+
+    <script src="js/GravitationPoint.js"></script>
+	<script src="js/Particle.js"></script>
+	<script src="js/Timer.js"></script>
+
+    <script src="js/App.js"></script>
+</body>
+</html>
